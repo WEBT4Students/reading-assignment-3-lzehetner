@@ -14,22 +14,22 @@
                 <br>
                 <ul>
                     <li><b>an ordered list</b></li>
-                        ...
+                        &lt;ol&gt;
                     <br>
                     <li><b>an unordered list</b></li>
-                        ...
+                        &lt;ul&gt;
                     <br>
                     <li><b>a description list</b></li>
-                        ...
+                        &lt;dl&gt;
                     <br>
                     <li><b>a list item</b></li>
-                        ...
+                        &lt;li&gt;
                     <br>
                     <li><b>a description term</b></li>
-                        ...
+                        &lt;dt&gt;
                     <br>
                     <li><b>a description data</b></li>
-                        ...
+                        &lt;dd&gt;
                     <br>
                 </ul>
             </li>
@@ -40,20 +40,17 @@
             <li><b>Make bullet a square</b></li>
             <br>
             <li><b>Make bullet an image named "my-bullet.png"</b></li>
-                ...
+                list-style-image: url("my-bullet.png");
             <br>
             <li><b>Make bullet an uppercase roman number</b></li>
-                ...
+                list-style-type: upper-roman;
             <br>
             <li><b>Set bullet position to be inside the list item's text flow
             </b></li>
-                ...
-            <br>
-            <li><b>Set bullet position to be inside the list item's text flow</b></li>
-                ...
+                list-style-position: inside;
             <br>
             <li><b>Set bullet position to be outside the list item's text flow</b></li>
-                ...
+                list-style-position: outside;
             <br>
         </ol>
 
@@ -64,28 +61,25 @@
                 <br>
                 <ul>
                     <li><b>a table</b></li>
-                        ...
+                        &lt;table&gt;
                     <br>
                     <li><b>a table row</b></li>
-                        ...
+                        &lt;tr&gt;
                     <br>
                     <li><b>a table header</b></li>
-                        ...
+                        &lt;thead&gt;
                     <br>
                     <li><b>a table header cell</b></li>
-                        ...
+                        &lt;th&gt;
                     <br>
                     <li><b>a table body</b></li>
-                        ...
+                        &lt;tbody&gt;
                     <br>
                     <li><b>a table cell</b></li>
-                        ...
+                        &lt;td&gt;
                     <br>
                     <li><b>a table footer</b></li>
-                    ...
-                    <br>
-                    <li><b>a table footer cell</b></li>
-                    ...
+                        &lt;tfoot&gt;
                     <br>
                 </ul>
             </li>
@@ -94,10 +88,15 @@
         <h3><i>Css for Tables</i></h3>
         <ol>
             <li><b>Black dotted border of 1 px width</b></li>
-                ...
+                border-style: dotted;<br>
+                border-color: black;<br>
+                border-width: 1px;
             <br>
             <li><b>Solid border of 1 px width having a red color and rounded corners</b></li>
-                ...
+                border-style: solid;<br>
+                border-color: red;<br>
+                border-width: 1px;
+                border-radius: 15px
             <br>
             <li><b>Merge the borders of table cells so that they appear as one line</b></li>
                 ...
